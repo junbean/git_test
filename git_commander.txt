@@ -26,3 +26,20 @@
 특정 커밋으로 리셋하기
 	git reset 깃번호
 	git reset 5eee1e0
+
+브랜치 생성하기
+	git branch 브랜치명
+	git branch foo
+
+브랜치 변경하기
+	git switch 브랜치명
+	git switch foo
+
+브랜치 목록 
+	git branch
+
+
+
+
+
+
