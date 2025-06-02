@@ -16,7 +16,7 @@
 	git rm --cached README.md
 
 커밋하기
-	git commit -m "기셍 넣을 메세지"
+	git commit -m "깃에 넣을 메세지"
 
 깃 로그 확인하기
 	git log
@@ -27,16 +27,14 @@
 	git reset 깃번호
 	git reset 5eee1e0
 
-브랜치 생성하기
-	git branch 브랜치명
-	git branch foo
+원격 저장소 지정하기
+	git remote add origin 원격 저장소 주소
+	git remote add https://github.com/junbean/git_test.git
 
-브랜치 변경하기
-	git switch 브랜치명
-	git switch foo
+지정한 원격 저장소 보기
+	git remote -v
 
-브랜치 목록 
-	git branch
+
 
 
 
